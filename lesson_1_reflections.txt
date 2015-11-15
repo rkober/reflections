@@ -1,0 +1,38 @@
+Using Diff tool versus manually comparing files
+when comparing files manually it was a very slow and tedious process
+using the command line tool made it much easier to identify the changed lines
+which eliminated alot of the useless scanning.  Although using the tool was faster
+the format of the results and the identification of the problem was still pretty difficult
+it would probably be better if the tool was able to show changed characters as well as 
+changed lines.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You don't have to worry about "losing" code over time.  you can program and refactor more confidently that if 
+something breaks after a revsion that it can always be reverted.  It also makes it easier to do backups of important 
+versions of the code (post-release) that would be useful for quickly adapting to emergency situations.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+Choosing the commit points makes much more sense for things like coding where periodic or size based saves could end 
+up either missing critical check-in points or saving versions of code that aren't logically grouped.  The downside is that
+there is a big point of having each person determine when they want to commit their changes, and having to manually determine
+the best "size" of the commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+When coding complex solutions, or even easy things like web pages, you are going to be manipulating alot of releated files. 
+If you had to view each change independently you would lose the information about the relationships and changes between related
+files.  It would also be very painful to try to see a diff between versions if you had to diff each file independently.
+
+How can you use the commands git log and git diff to view the history of files?
+git log shows the entire history of the repository along with the --stat option which makes it really easy to see some overviews
+about the magnitude of each change.  This is really useful for figuring out where the change you are looking into may exist.  Then
+after you find the likely area to investigate git diff can help you identify in much more detail what changes were made line by line
+in each of the chnaged files.
+
+How might using version control make you more confident to make changes that could break something?
+Given the ability to identify buggy versions and then undo them easily, the tool can definitely make you more confident in making
+complicated or "risky" changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to attempt using git for some projects and minor documents that I've been updating as side-projects.
