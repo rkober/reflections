@@ -5,3 +5,11 @@ when wanting to backup content to more than a single drive, and when looking to 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 You may be working on a specific feature that you aren't ready to merge with the public repository yet.  It's also likely that you will
 want to work offline.  Plus you don't want changes to the public respository to interfere with you while you are making your own changes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+branches are different commit paths of the same repository, these are used when you want to expirment or otherwise break out a new 
+set of changes (like adding a compelx new feature). Clones are copies of the same repository.  you would clone when you want to take a 
+copy of a repository to your local computer to make additional changes to it, or even to just view, run and navigate through the repository 
+using your own set of tools on your computer (browsers, ides, editors, etc.).  Forking is when you want to get a clone of an existing 
+repository on github into your own account, so that you can make changes to your repository without necessarily impacting the originator's 
+file.  This allows you commit your own work to the resposiory under your account, while also linking back to the original.
