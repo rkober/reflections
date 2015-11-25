@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When sharing content across computers, when wanting to publish content to a wider audience, 
+when wanting to backup content to more than a single drive, and when looking to work on content with other parties.
