@@ -13,3 +13,6 @@ copy of a repository to your local computer to make additional changes to it, or
 using your own set of tools on your computer (browsers, ides, editors, etc.).  Forking is when you want to get a clone of an existing 
 repository on github into your own account, so that you can make changes to your repository without necessarily impacting the originator's 
 file.  This allows you commit your own work to the resposiory under your account, while also linking back to the original.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can quickly get the state of everything on the server and handle any merges and conflicts locally without having an internet connection.
