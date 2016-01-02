@@ -23,3 +23,9 @@ ask the reviewer to stop over and take a look at the change.  This would be way 
 small changes the feedback/approval would likely be much easier.  Also the git pull request does a good job of showing what changed, but 
 not necessasrily why.  Maybe with comments or other features it would be OK, but a less formal communication method would liklely be 
 easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Whenever making larger scope changes (new features, expierimental changes, larege initiatives, big refactorings) I would use a branch.
+That has the advantage of being seperate from the core working product so that mistakes aren't as costly.  It also provides better tools
+like pull requests for collaboration and review purposes.  I would reserve making changes to master for urgent, important and small bug
+fixes or patches.  Less time is needed, but the risk should also be lower given that these kinds of changes are lower in scope and time.
