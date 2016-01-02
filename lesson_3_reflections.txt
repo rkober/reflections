@@ -16,3 +16,10 @@ file.  This allows you commit your own work to the resposiory under your account
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can quickly get the state of everything on the server and handle any merges and conflicts locally without having an internet connection.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would probably resort to using email with files/screenshots/descriptions of the change. Or if we were colocated I would likely just
+ask the reviewer to stop over and take a look at the change.  This would be way less convienient and much harder to track, although for 
+small changes the feedback/approval would likely be much easier.  Also the git pull request does a good job of showing what changed, but 
+not necessasrily why.  Maybe with comments or other features it would be OK, but a less formal communication method would liklely be 
+easier.
